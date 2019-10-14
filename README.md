@@ -13,4 +13,3 @@
 # You use numSides to find the number of sides in circle and polygon
 # You return an answer after calculating the problem.
 # You can number how many you are increasing as per for sides in range().
-#

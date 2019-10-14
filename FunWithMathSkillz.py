@@ -38,4 +38,5 @@ print(archimedes(4) - math.pi)
 print(archimedes(8) - math.pi)
 print(archimedes(16) - math.pi)
 print(archimedes(32) - math.pi)
+print(archimedes() - math.pi)
 # there would have to be above 16 sides for them to be close.
