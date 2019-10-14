@@ -26,17 +26,10 @@ print(archimedes(16))
 # 3.141592653589793
 
 
-for sides in range(8, 100, 8):
+for sides in range(350, 900, 350):
     print(sides, archimedes(sides))
 
 print(math.pi)
 # See the loop above.  in addition to the value of pi, print the difference
 #  between the values calculated by the archimedes function and by math.pi.
 #  How many sides does it take to make the two close?
-
-print(archimedes(4) - math.pi)
-print(archimedes(8) - math.pi)
-print(archimedes(16) - math.pi)
-print(archimedes(32) - math.pi)
-print(archimedes() - math.pi)
-# there would have to be above 16 sides for them to be close.
