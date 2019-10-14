@@ -25,9 +25,13 @@ print(archimedes(16))
 for sides in range(8, 100, 8):
     print(sides, archimedes(sides))
 
+
+print(math.pi)
 # See the loop above.  in addition to the value of pi, print the difference
 #  between the values calculated by the archimedes function and by math.pi.
 #  How many sides does it take to make the two close?
 
-for sides in range(2, 100, 2):
-    print(sides, archimedes(sides))
+print(archimedes(4) - math.pi)
+print(archimedes(8) - math.pi)
+print(archimedes(16) - math.pi)
+# there would have to be above 16 sides for them to be close.
