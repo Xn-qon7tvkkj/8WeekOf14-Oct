@@ -19,12 +19,15 @@ def archimedes(numSides):
 
 
 print(archimedes(4))
+# 3.0614674589207183
 print(archimedes(8))
+# 3.121445152258052
 print(archimedes(16))
+# 3.141592653589793
+
 
 for sides in range(8, 100, 8):
     print(sides, archimedes(sides))
-
 
 print(math.pi)
 # See the loop above.  in addition to the value of pi, print the difference
@@ -34,4 +37,5 @@ print(math.pi)
 print(archimedes(4) - math.pi)
 print(archimedes(8) - math.pi)
 print(archimedes(16) - math.pi)
+print(archimedes(32) - math.pi)
 # there would have to be above 16 sides for them to be close.
