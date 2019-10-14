@@ -7,3 +7,10 @@
 # inf = infinity
 # nan = not a number
 # tau = circle constant representing the ratio between circumference and radius
+# Modules can be written, which is found in websites of people researching standard modules of Python.
+# Archimedes fiddled around with math, coming up with computing Pi. It involves Trigonometry. A polygon inside of a circle to approximate Pi.
+# You start math with def.
+# You use numSides to find the number of sides in circle and polygon
+# You return an answer after calculating the problem.
+# You can number how many you are increasing as per for sides in range().
+#
