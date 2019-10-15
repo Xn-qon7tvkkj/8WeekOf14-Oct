@@ -26,10 +26,14 @@ print(archimedes(16))
 # 3.141592653589793
 
 
-for sides in range(350, 900, 350):
+for sides in range(750, 900, 750):
     print(sides, archimedes(sides))
 
 print(math.pi)
 # See the loop above.  in addition to the value of pi, print the difference
 #  between the values calculated by the archimedes function and by math.pi.
 #  How many sides does it take to make the two close?
+
+
+# Accumulators
+
