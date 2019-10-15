@@ -13,4 +13,10 @@
 # You use numSides to find the number of sides in circle and polygon
 # You return an answer after calculating the problem.
 # You can number how many you are increasing as per for sides in range().
-# Accumulators have many purposes, but
+# Accumulators have many purposes, which help variables. It may look like equations but they work differently.
+# You take the original value of acc and add val. It increases one at a time.
+# original = 0, you add 1 to the equation.
+# You replace the original with the new number (1, 2, 3, 4, 5)and add it to (2, 3, 4, 5)
+# The last equals 15.
+# Accumulators can be used with addition, subtraction, multiplication, and division.
+#
