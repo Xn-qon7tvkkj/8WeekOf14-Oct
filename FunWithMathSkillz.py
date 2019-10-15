@@ -66,6 +66,8 @@ for val in range(1, 100, 2):
     acc = acc + val
 
 print(acc)
+# Each odd numbers accumulate up to 100 and added to the val, equalling to 2500.
+
 # Write a function that returns the average of the first N numbers, where
 #   N is a parameter
 # Write a function called factorial that computes the product of the first N
