@@ -62,11 +62,11 @@ print(acc)
 
 # Compute the average of the first 100 odd numbers
 acc = 0
-for val in range(1, 100, 2):
+for val in range(1, 201, 2):
     acc = acc + val
-    acc = (acc + val / 100)
-print(acc)
-# Each odd numbers accumulate up to 100 and added to the val, equalling to 46.
+
+print(acc / 100)
+# Each odd numbers accumulate up to 100 and added to the val, equalling to 100.
 
 # Write a function that returns the average of the first N numbers, where
 #   N is a parameter
