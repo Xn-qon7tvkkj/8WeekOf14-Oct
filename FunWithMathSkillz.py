@@ -45,7 +45,21 @@ print(acc)
 
 
 # Compute the sum of the first 100 even numbers
+acc = 0
+for val in range(2, 100):
+    acc = acc + val
+
+print(acc)
+# Each even numbers accumulate to 100 and added to the val, equalling to 4949.
+
 # Compute the sum of the first 50 odd numbers
+acc = 0
+for val in range(1, 50):
+    acc = acc + val
+
+print(acc)
+# Each odd numbers accumulate to 50 and added to the val, equalling to 1225.
+
 # Compute the average of the first 100 odd numbers
 # Write a function that returns the average of the first N numbers, where
 #   N is a parameter
