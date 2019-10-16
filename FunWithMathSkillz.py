@@ -70,10 +70,25 @@ print(acc / 100)
 
 # Write a function that returns the average of the first N numbers, where
 #   N is a parameter
+n = input("Type Number ")
+n = int(n)
+average = 0
+acc = 0
+for n in range(0, n+1, 1):
+    acc = acc + n;
+average = acc / n
+print("Average of first", n, "number is: ", average)
 
 # Write a function called factorial that computes the product of the first N
 #   numbers, where N is a parameter
-
+n = input("Type Number ")
+n = int(n)
+factorial = 0
+acc = 0
+for n in range(0, n+1, 1):
+    acc = acc + n;
+factorial = acc * n
+print("Product of first N", n, "number is: ", factorial)
 
 # Each number in the Fibonacci sequence is the sum of previous two number
 #   The first two numbers in the sequence are 1 and 1. Compute the 10th
@@ -87,3 +102,11 @@ print(acc)
 
 # Write a function to compute the Nth Fibonacci number, where N is a parameter
 #   You may assume that N will be greater than or equal to 3.
+n = input("Type Number ")
+n = int(n>+3)
+fibonacci = 0
+acc = 0
+for n in range(0, n+1, 1):
+    acc = acc + n;
+fibonacci = acc / n
+print("Nth Fibonacci number", n, "is: ", fibonacci)
