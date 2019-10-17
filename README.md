@@ -19,4 +19,3 @@
 # You replace the original with the new number (1, 2, 3, 4, 5)and add it to (2, 3, 4, 5)
 # The last equals 15.
 # Accumulators can be used with addition, subtraction, multiplication, and division.
-#
