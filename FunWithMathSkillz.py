@@ -102,11 +102,12 @@ print(acc)
 
 # Write a function to compute the Nth Fibonacci number, where N is a parameter
 #   You may assume that N will be greater than or equal to 3.
-n = input("Type Number ")
-n = int(n>+3)
-fibonacci = 0
-acc = 0
-for n in range(0, n+1, 1):
-    acc = acc + n;
-fibonacci = acc / n
-print("Nth Fibonacci number", n, "is: ", fibonacci)
+
+def Fibonacci(n):
+    if n<=3:
+        print("Incorrect input")
+    # First Fibonacci number is 0
+    elif n==3:
+        return 0
+    else:
+        return Fibonacci(n-1)+Fibonacci(n-2)
