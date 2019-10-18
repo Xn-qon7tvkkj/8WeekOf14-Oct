@@ -123,3 +123,5 @@ print(random.random())
 
 # Boolean Expressions
 # <, <=, >, >=, ==, !=
+# Compound Boolean expressions
+# and, or, not
