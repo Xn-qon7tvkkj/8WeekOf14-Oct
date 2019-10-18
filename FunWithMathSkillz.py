@@ -149,3 +149,13 @@ else:
     else:
         ans = 75
 print(ans)
+
+value = 75
+if value > 100:
+    print("bigger than 100")
+elif  value > 80:
+    print("bigger than 80")
+elif value > 45:
+    print("bigger than 45")
+else:
+    print("not bigger than much")

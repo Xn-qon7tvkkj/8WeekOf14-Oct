@@ -27,3 +27,4 @@
 # Or is choosing one that is either True. Both of them incorrect will be False.
 # Not reverses the True/False statement.
 # Else is otherwise.
+# Elif is else if.
