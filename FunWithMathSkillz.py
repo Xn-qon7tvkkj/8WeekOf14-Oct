@@ -120,3 +120,6 @@ def Fibonacci(n):
 import random
 
 print(random.random())
+
+# Boolean Expressions
+# <, <=, >, >=, ==, !=
