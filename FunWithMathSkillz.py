@@ -109,8 +109,6 @@ def Fibonacci(n):
     # First Fibonacci number is 3
     elif n==3:
         return 3
-    elif n==1:
-        return 1
     else:
         return Fibonacci(n-1)+Fibonacci(n-2)
 
