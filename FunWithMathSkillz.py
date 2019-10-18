@@ -125,3 +125,27 @@ print(random.random())
 # <, <=, >, >=, ==, !=
 # Compound Boolean expressions
 # and, or, not
+
+dogWeight = 25
+print(dogWeight < 25)   # ==, <=, >= is True. !=, <, > is false
+catWeight = 12
+print(dogWeight > 25 or catWeight <= 10)
+print(not catWeight <= 10)
+
+# Decision making skills
+
+alice = 20
+bob = 15
+carol = 25
+ans = 0
+if alice > 20:
+    if bob < 50:
+        ans = 150
+    else:
+        ans = 300
+else:
+    if carol > 500:
+        ans = 200
+    else:
+        ans = 75
+print(ans)
