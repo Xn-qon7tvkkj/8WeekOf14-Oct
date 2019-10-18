@@ -22,3 +22,5 @@
 
 
 # You import random modules in order to work with the Monte Carlo Simulation.
+# == is comparing two things.
+# != is not equal to
